@@ -3,7 +3,7 @@
 This repository contains the code and documentation for a data engineering project that processes and analyzes hospital data. The project leverages multiple Azure services, including Azure Data Factory, Azure Data Lake Storage Gen2, Azure Databricks, and Azure SQL Database, to build a scalable data pipeline. The processed data is then visualized using Microsoft Power BI to generate business insights.
 
 # **Project Structure**
-data_factory: Contains the Azure Data Factory configuration files and data pipeline definitions. databricks: Contains PySpark code and notebooks used for data transformation. synapse_analytics: Includes SQL scripts and notebooks for data analysis in Azure Synapse Analytics. power_bi: Contains Power BI reports and datasets for data visualization.
+data_factory: Contains the Azure Data Factory configuration files and data pipeline definitions. databricks: Contains PySpark code and notebooks used for data transformation. Azure SQL Database: Includes SQL scripts and notebooks for data analysis in Azure SQL Database. power_bi: Contains Power BI reports and datasets for data visualization.
 
 # Project Steps
 **Data Ingestion:** Data from Kaggle is stored in a storage container in a specific Azure Storage account.
@@ -14,7 +14,7 @@ data_factory: Contains the Azure Data Factory configuration files and data pipel
 
 **Data Transformation:** PySpark scripts in Databricks transform the data, and the results are returned to the storage container.
 
-**Azure SQL Database:** Azure Synapse Analytics is deployed for SQL data analysis. Data is loaded into Synapse Analytics for complex analytical queries.
+**Azure SQL Database:** Azure SQL Database is deployed for SQL data analysis. Data is loaded into Azure SQL Database for complex analytical queries.
 
 **Data Visualization:** The data is loaded into Microsoft Power BI for creating interactive dashboards and reports.
 
